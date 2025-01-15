@@ -1,0 +1,93 @@
+:root {
+    --14font-size: 14px;
+    --gold: #ffd700ff;
+    --background: #f4f5f7;
+    --white: #fff;
+    --blue: #007bff;
+    --dark-blue: #0056b3;
+    --complete-card: #28a745;
+    --complete-card-hover: #218838;
+    --remove-card: #ff4d4d;
+    --remove-card-hover: #e60000;
+    --toggle-card: #007bff;
+    --toggle-card-hover: #87cefaff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    font-size: 62%;
+}
+
+html,
+body {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+}
+
+body,
+a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0;
+    text-align: left;
+    color: #1f1f1f;
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.btn {
+    padding: 10px 16px;
+    font-size: var(--14font-size);
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.form-control {
+    font-size:  var(--14font-size);
+    padding: 10px;
+    border: 1px solid #dfe1e6;
+    border-radius: 8px;
+    outline: none;
+}
+
+.form-control:focus {
+    border-color: #0052cc;
+    box-shadow: 0 0 4px rgba(0, 82, 204, 0.2);
+}
